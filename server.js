@@ -9,7 +9,7 @@ import loaders from './lib/loaders';
 import config from './config';
 import { info, error } from './lib/loggers';
 import auth from './lib/auth';
-import graphqlErrorHandler from './lib/graphql-error-handler';
+import graphqlErrorHandler from './lib/graphql_error_handler';
 
 const {
   PORT,
