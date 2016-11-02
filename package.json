@@ -12,7 +12,7 @@
     "dev": "DEBUG=info,error nf start --procfile Procfile.dev",
     "test": "npm run lint && jest",
     "lint": "eslint .",
-    "fix": "eslint . --fix",
+    "fix": "eslint . --fix"
   },
   "author": "",
   "license": "MIT",
@@ -43,6 +43,8 @@
     "morgan": "^1.6.1",
     "numeral": "^1.5.3",
     "qs": "^5.2.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "request": "^2.67.0",
     "source-map-support": "^0.4.3"
   },
@@ -58,6 +60,6 @@
     "eslint-plugin-react": "^3.14.0",
     "expect.js": "^0.3.1",
     "foreman": "^1.4.1",
-    "nodemon": "^1.8.1",
+    "nodemon": "^1.8.1"
   }
 }
