@@ -1,0 +1,6 @@
+.env
+.env.staging
+.DS_Store
+node_modules
+dump.rdb
+npm-debug.log
