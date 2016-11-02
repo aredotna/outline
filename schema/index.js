@@ -1,3 +1,4 @@
+import Status from './status';
 import {
   GraphQLSchema,
   GraphQLObjectType,
@@ -7,6 +8,7 @@ const schema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: 'RootQueryType',
     fields: {
+      status: Status,
     },
   }),
 });
